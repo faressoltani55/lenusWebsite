@@ -253,8 +253,15 @@ a:hover {
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: #FA5757;
   color: #fff;
+  padding-top: 6.5vh;
+  border-radius: 50%;
+  padding-left: 2.1vh;
+  height: 15vh;
+  width: 15vh;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
 }
 
 .mt-20 {
@@ -398,59 +405,59 @@ a:hover {
 @keyframes loading {
   /*  */
   0% {
-    box-shadow: inset 0 0 0 80px #f9a743;
+    box-shadow: inset 0 0 0 80px #FFD42B;
   }
   8.49% {
-    background: #f9a743;
-    box-shadow: inset 0 0 0 160px #f9a743;
+    background: #FFD42B;
+    box-shadow: inset 0 0 0 160px #FFD42B;
   }
   /* orange */
   8.5% {
-    box-shadow: inset 0 0 0 0 #ff8133;
+    box-shadow: inset 0 0 0 0 #FFD42B;
   }
   24.99% {
-    background: #ff8133;
-    box-shadow: inset 0 0 0 160px #ff8133;
+    background: #FFD42B;
+    box-shadow: inset 0 0 0 160px #FFD42B;
   }
   /* yellow */
   25% {
-    box-shadow: inset 0 0 0 0 #ffbe1a;
+    box-shadow: inset 0 0 0 0 #FA5757;
   }
   41.49% {
-    background: #ffbe1a;
-    box-shadow: inset 0 0 0 160px #ffbe1a;
+    background: #FA5757;
+    box-shadow: inset 0 0 0 160px #FA5757;
   }
   /*  */
   41.5% {
-    box-shadow: inset 0 0 0 0 #f9a743;
+    box-shadow: inset 0 0 0 0 #FA5757;
   }
   57.99% {
-    background: #f9a743;
-    box-shadow: inset 0 0 0 160px #f9a743;
+    background: #FA5757;
+    box-shadow: inset 0 0 0 160px #FA5757;
   }
   /* blue */
   58% {
-    box-shadow: inset 0 0 0 0 #00b5d9;
+    box-shadow: inset 0 0 0 0 #FFC8DE;
   }
   74.49% {
-    background: #00b5d9;
-    box-shadow: inset 0 0 0 160px #00b5d9;
+    background: #FFC8DE;
+    box-shadow: inset 0 0 0 80px #FFC8DE;
   }
   /* purple */
   74.5% {
-    box-shadow: inset 0 0 0 0 #9772e5;
+    box-shadow: inset 0 0 0 0 #A3DAF9;
   }
   90.99% {
-    background: #9772e5;
-    box-shadow: inset 0 0 0 160px #9772e5;
+    background: #A3DAF9;
+    box-shadow: inset 0 0 0 160px #A3DAF9;
   }
   /*  */
   91% {
-    box-shadow: inset 0 0 0 0 #f9a743;
+    box-shadow: inset 0 0 0 0 #4B71FF;
   }
   100% {
-    background: #f9a743;
-    box-shadow: inset 0 0 0 80px #f9a743;
+    background: #4B71FF;
+    box-shadow: inset 0 0 0 160px #4B71FF;
   }
 }
 
@@ -734,6 +741,7 @@ a:hover {
           transform: translate(-50%, -50%);
 }
 
+
 .overlay {
   position: relative;
 }
@@ -828,7 +836,7 @@ a:hover {
   About us 2 section
 ==================================================================*/
 .about-2 .content-block {
-  padding: 15vh;
+  padding: 17vh;
 }
 
 .about-2 .content-block .media {
@@ -1003,12 +1011,7 @@ a:hover {
 .pricing {
   background-color: #F8F7F3;
 }
-.price-item {
-  border: 1px solid rgba(236, 239, 241, 0.07);
-  padding-bottom: 30px;
-  margin-bottom: 15px;
-  background-color: #EBEBEB;
-}
+
 
 .price-title {
   background-color: #FFFFFF;
@@ -1029,6 +1032,13 @@ a:hover {
 .price-title .value {
   color: #1E4DFF;
   font-size: 30px;
+}
+
+.price-item {
+  border: 1px solid rgba(236, 239, 241, 0.07);
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+  background-color: #EBEBEB;
 }
 
 .pricing li {
@@ -1054,6 +1064,10 @@ a:hover {
   color: #FA5757;;
 }
 
+dis {
+  color: grey;
+}
+
 .price-item a {
   font-family: 'Montserrat Light';
   color: #FA5757;
@@ -1062,6 +1076,10 @@ a:hover {
 /*=================================================================
   Portfolio section
 ==================================================================*/
+.portfolio {
+  background-color: white;
+}
+
 .portfolio-filter {
   margin-bottom: 40px;
   text-align: center;
@@ -1365,11 +1383,13 @@ a:hover {
 }
 
 .client-meta h3 {
-  margin: 15px 0 5px .0;
+  margin: 15px 0 5px 0;
+  color: white;
 }
 
 .client-meta span {
   font-size: 12px;
+  color: white;
 }
 
 .owl-pagination,
