@@ -647,12 +647,12 @@ a:hover {
 }
 
 .navbar-toggle {
-  border: 1px solid #fff;
+  border: 1px solid #1E4DFF;
   border-radius: 0;
 }
 
 .navbar-toggle span {
-  background: #fff;
+  background: #1E4DFF;
 }
 
 .bg-1 {
