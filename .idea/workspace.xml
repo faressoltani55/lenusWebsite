@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d98954d5-2781-44a8-b4aa-1db99f32fb91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/client-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/team/client-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/team-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/team/team-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/team-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/team/team-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/team-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/team/team-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/team-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/team/team-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team/team-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/team/team-5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +76,7 @@
       <workItem from="1600715656935" duration="318000" />
       <workItem from="1600792450061" duration="744000" />
       <workItem from="1601114013121" duration="616000" />
-      <workItem from="1601394438865" duration="20000" />
+      <workItem from="1601394438865" duration="3022000" />
     </task>
     <servers />
   </component>
