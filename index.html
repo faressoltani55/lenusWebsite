@@ -11,7 +11,7 @@
 	<meta name="description" content="Lenus Website">
 
 	<meta name="author" content="Fares Soltani">
-
+	<link rel="icon" href="images/logos/icon.jpg" type="image/jpg">
 	<title>Lenus</title>
 
 	<!-- Mobile Specific Meta
@@ -54,7 +54,7 @@
 Welcome Slider
 ==================================== -->
 
-<section class="hero-area overlay" style="background-image: url('images/banner/hero-area.jpg');">
+<section class="hero-area overlay">
 	<video autoplay muted loop class="hero-video">
 		<source src="images/banner/hero-video.mp4" type="video/mp4">
 	</video>
@@ -63,9 +63,9 @@ Welcome Slider
 			<img src="./images/lenusblanc.png">
 		</div>
 		<div class="video-button">
-			<a class="popup-video" href="https://www.youtube.com/watch?v=eXBaJHTSDck&feature=youtu.be&ab_channel=LenusSupport">
+			<a class="popup-video" href="https://www.youtube.com/embed/eXBaJHTSDck">
 				<i class="tf-ion-play"></i>
-		</a>
+			</a>
 		</div>
 		<h1>Be Safe, and Enjoy the Stay</h1>
 		<a data-scroll href="#about" class="btn btn-transparent">Nous Explorer</a>
@@ -102,7 +102,6 @@ Welcome Slider
                 <li><a data-scroll href="#services">Services</a></li>
                 <li><a data-scroll href="#portfolio">Portfolio</a></li>
                 <li><a data-scroll href="#our-team">Equipe</a></li>
-                <li><a data-scroll href="#pricing">Packs</a></li>
                 <li><a data-scroll href="#contact-us">Contact</a></li>
             </ul>
         </nav>
@@ -147,7 +146,7 @@ Welcome Slider
 					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
 						<div class="block">
 							<div class="icon-box">
-								<i class="tf-ion-ios-medkit-outline" style="color: #FA5757"></i>
+								<i class="tf-ion-radio-waves" style="color: #FA5757"></i>
 							</div>
 							<!-- Express About Yourself -->
 							<div class="content text-center">
@@ -177,11 +176,11 @@ Welcome Slider
 			</div>   	<!-- End container -->
 		</section>   <!-- End section -->
 
-<section class="section about-2 padding-0 bg-dark">
+<section class="section about-2 padding-0 bg-3">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-6 padding-0 ">
-				<img class="img-responsive" src="images/about/about-business-man.jpg" alt="">
+			<div class="col-md-6 padding-0">
+				<img class="img-responsive padding-0" src="images/about/about-business-man.jpg" alt="">
 			</div>
 			<div class="col-md-6">
 				<div class="content-block">
@@ -193,7 +192,7 @@ Welcome Slider
 						<div class="col-md-6">
 							<div class="media">
 								<div class="pull-left">
-									<i class="tf-circle-compass"></i>	
+									<i class="tf-ion-wifi"></i>
 								</div>
 								<div class="media-body">
 									<h4 class="media-heading">Digitalisation des Services</h4>
@@ -204,7 +203,7 @@ Welcome Slider
 						<div class="col-md-6">
 							<div class="media">
 								<div class="pull-left">
-									<i class="tf-hotairballoon"></i>	
+									<i class="tf-ion-thumbsup"></i>
 								</div>
 								<div class="media-body">
 									<h4 class="media-heading">Profiling des clients</h4>
@@ -226,8 +225,10 @@ Start Call To Action
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<h2>Services Exceptionnels Pour Vous Rapprocher de Votre Clientèle !</h2>
-				<p>Vous voulez savoir plus sur nos services? <br> Ne perdez pas de temps et allons les explorer!</p>
+				<div class="a">
+					<h2>Services Exceptionnels Pour Vous Rapprocher de Votre Clientèle !</h2>
+					<p>Vous voulez savoir plus sur nos services? <br> Ne perdez pas de temps et allons les explorer!</p>
+				</div>
 				<a href="#contact-us" class="btn btn-main">Contactez nous !</a>
 			</div>
 		</div> 		<!-- End row -->
@@ -358,13 +359,13 @@ Start Call To Action
 <!-- Start Portfolio Section
 		=========================================== -->
 
-<section class="portfolio section" id="portfolio">
+<section class="portfolio section bg-dark" id="portfolio">
 	<div class="container">
 		<div class="row ">
 			<div class="col-lg-12">
 				<!-- section title -->
 				<div class="title text-center">
-					<h2>Nos <span class="color">Produits</span></h2>
+					<h2>La <span class="color">Solution</span></h2>
 					<div class="border"></div>
 				</div>
 				<!-- /section title -->
@@ -376,7 +377,6 @@ Start Call To Action
 					<button class="active" type="button" data-filter="all">All</button>
 					<button type="button" data-filter="bracelet">Bracelet</button>
 					<button type="button" data-filter="borne">Borne</button>
-					<button type="button" data-filter="application">Applications</button>
 				</div>
 			</div>
 		</div>
@@ -417,6 +417,18 @@ Start Call To Action
 					</div>
 				</div>
 			</div>
+			<div class="filtr-item col-md-4" data-category="borne">
+				<div class="portfolio-block">
+					<img class="img-responsive" src="images/portfolio/borne.jpg" alt="">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/borne.jpg"
+						   data-lightbox="image-1">
+							<i class="tf-ion-android-search"></i>
+						</a>
+						<h4><a href="">Borne de check-in / check-out</a></h4>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div> <!-- end container -->
 </section> <!-- End section -->
@@ -425,12 +437,18 @@ Start Call To Action
 Start Counter Section
 ==================================== -->
 		
-<section id="counter" class="parallax-section bg-1 section overly">
+<section id="counter" class="parallax-section bg-1 section">
 	<div class="container">
-		<div class="row">
-			<br>
-			<br>
-			<br>
+		<div>
+			<div class="title text-center">
+				<h2 style="color: white">Vidéo <span class="color">Demo</span></h2>
+				<div class="border"></div>
+			</div>
+		</div>
+		<div class="row text-center">
+			<iframe class="my_class_name" width="640" height="360"
+					src="https://www.youtube.com/embed/268qoSZttDQ?showinfo=0" frameborder="0" allowfullscreen>
+			</iframe>
 		</div> 		<!-- end row -->
 	</div>   	<!-- end container -->
 </section>   <!-- end section -->
@@ -439,7 +457,7 @@ Start Counter Section
 Start Our Team
 =========================================== -->
 
-<section id="our-team" class="section">
+<section id="our-team" class="section bg-dark">
 	<div class="container">
 		<div class="row">
 		
@@ -451,10 +469,7 @@ Start Our Team
 			<!-- /section title -->
 			
 			<!-- team member -->
-			<div class="col-md-2">
-			</div>
-
-			<div class="col-md-4 col-sm-6 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
+			<div class="t col-md-2 col-sm-6 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
                <div class="team-member">
 					<div class="member-photo">
 						<!-- member photo -->
@@ -476,7 +491,6 @@ Start Our Team
 					<div class="member-meta">
 						<h4>Fares Soltani</h4>
 						<span>Ingénieur Backend</span>
-						<p style="font-style: italic">"Ce qui compte ce n'est pas avoir beaucoup de temps, c'est savoir s'en servir."</p>
 					</div>
 					<!-- /member name & designation -->
 					<!-- /about member -->
@@ -486,7 +500,7 @@ Start Our Team
 			<!-- end team member -->
 			
 			<!-- team member -->
-			<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
+			<div class="t col-md-2 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
                <div class="team-member">
 					<div class="member-photo">
 						<!-- member photo -->
@@ -508,19 +522,13 @@ Start Our Team
 					<div class="member-meta">
 						<h4>Amal Jebali</h4>
 						<span>Data Scientist</span>
-						<p style="font-style: italic">"Le monde aspirera la toute parfum de la science."</p><br>
 					</div>
 					<!-- /member name & designation -->
 					<!-- /about member -->
 				</div>
             </div>
-			<div class="col-md-2">
-			</div>
-			<!-- end team member -->
-
-		<div class="row">
 			<!-- team member -->
-			<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+			<div class="t col-md-2 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
 				<div class="team-member">
 					<div class="member-photo">
 						<!-- member photo -->
@@ -542,7 +550,6 @@ Start Our Team
 					<div class="member-meta">
 						<h4>Manel Bel Hadj Slama</h4>
 						<span>Ingénieur Embarqué</span>
-						<p style="font-style: italic">"Les machines sont comme le vent, toujours à nos côtés."</p>
 					</div>
 					<!-- /member name & designation -->
 					<!-- /about member -->
@@ -551,7 +558,7 @@ Start Our Team
 			<!-- end team member -->
 
 			<!-- team member -->
-			<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+			<div class="t col-md-2 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
 				<div class="team-member">
 					<div class="member-photo">
 						<!-- member photo -->
@@ -573,7 +580,6 @@ Start Our Team
 					<div class="member-meta">
 						<h4>Med Ali Jardak</h4>
 						<span>Ingénieur Sécurité</span>
-						<p style="font-style: italic">"La technologie est le support du monde aujourd'hui"</p><br>
 					</div>
 					<!-- /member name & designation -->
 					<!-- /about member -->
@@ -582,7 +588,7 @@ Start Our Team
 			<!-- end team member -->
 
 			<!-- team member -->
-			<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+			<div class="t col-md-2 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
 				<div class="team-member">
 					<div class="member-photo">
 						<!-- member photo -->
@@ -604,7 +610,6 @@ Start Our Team
 					<div class="member-meta">
 						<h4>Ryma Jemaiel</h4>
 						<span>Lead Designer</span>
-						<p style="font-style: italic">"Ce qui a été brisé peut toujours être reforgé."</p><br>
 					</div>
 					<!-- /member name & designation -->
 					<!-- /about member -->
@@ -614,119 +619,9 @@ Start Our Team
 		</div>
 			
 		</div>  	<!-- End row -->
-	</div>   	<!-- End container -->
 </section>   <!-- End section -->
 		
 
-<!-- Start Pricing section
-		=========================================== -->
-		
-		<section id="pricing" class="pricing section">
-			<div class="container">
-				<div class="row">
-					
-					<!-- section title -->
-				    <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
-			        	<h2>Nos<span class="color"> Plans</span></h2>
-				        <div class="border"></div>
-				    </div>
-				    <!-- /section title -->
-					
-					<!-- single pricing table -->
-					<div class="col-md-4 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="200ms">
-						<div class="price-item">
-							
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Silver</h3>
-								<p><strong class="value">$100 000</strong>/ an</p>
-							</div>
-							<!-- /plan name & value -->
-							
-							<!-- plan description -->
-							<ul>
-								<li style="color: darkcyan">Dashboard Administrateur</li>
-								<li style="color: darkcyan">Application Mobile Client</li>
-								<li style="color: darkcyan">Bracelet Intelligent</li>
-								<li style="color: #999999">Système de Profiling</li>
-								<li style="color: #999999">Borne de Check-in</li>
-								<li style="color: #999999">Application Mobile Staff</li>
-							</ul>
-							<!-- /plan description -->
-							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#"><strong>Subscribe</strong></a>
-							<!-- /signup button -->
-							
-						</div>
-					</div>
-					<!-- end single pricing table -->
-					
-					<!-- single pricing table -->
-					<div class="col-md-4 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="price-item">
-						
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Gold</h3>
-								<p><strong class="value">$150 000</strong/>/ an</p>
-							</div>
-							<!-- /plan name & value -->
-							
-							<!-- plan description -->
-							<ul>
-								<li style="color: darkcyan">Dashboard Administrateur</li>
-								<li style="color: darkcyan">Application Mobile Client</li>
-								<li style="color: darkcyan">Bracelet Intelligent</li>
-								<li style="color: darkcyan">Système de Profiling</li>
-								<li style="color: #999999">Borne de Check-in</li>
-								<li style="color: #999999">Application Mobile Staff</li>
-							</ul>
-							<!-- /plan description -->
-							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#"><strong>Subscribe</strong></a>
-							<!-- /signup button -->
-							
-						</div>
-					</div>
-					<!-- end single pricing table -->
-					
-					<!-- single pricing table -->
-					<div class="col-md-4 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="price-item">
-							
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Platinum</h3>
-								<p><strong class="value">$200 000</strong/>/ an</p>
-							</div>
-							<!-- /plan name & value -->
-							
-							<!-- plan description -->
-							<ul>
-								<li style="color: darkcyan">Dashboard Administrateur</li>
-								<li style="color: darkcyan">Application Mobile Client</li>
-								<li style="color: darkcyan">Bracelet Intelligent</li>
-								<li style="color: darkcyan">Système de Profiling</li>
-								<li style="color: darkcyan">Borne de Check-in</li>
-								<li style="color: darkcyan">Application Mobile Staff</li>
-							</ul>
-							<!-- /plan description -->
-							
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#"><strong>Subscribe</strong></a>
-							<!-- /signup button -->
-							
-						</div>
-					</div>
-					<!-- end single pricing table -->
-					<!-- end single pricing table -->
-				    
-					
-				</div>       <!-- End row -->
-			</div>   	<!-- End container -->
-		</section>   <!-- End section -->
 
 <!-- Start Testimonial
 		=========================================== -->
@@ -760,53 +655,6 @@ Start Our Team
 						<!-- /client info -->
 					</div>
 					<!-- /testimonial single -->
-				
-					<!-- testimonial single -->
-					<div class="item text-center">
-						
-						<!-- client photo -->
-						<div class="client-thumb">
-							<img src="images/team/client-3.jpg" class="img-responsive" alt="Meghna">
-						</div>
-						<!-- /client photo -->
-						
-						<!-- client info -->
-						<div class="client-info">
-							<div class="client-meta">
-								<h3>Hazem Ben Ammar</h3>
-								<span>Aug 26, 2020</span>
-							</div>
-							<div class="client-comment">
-								<p>J'ai bien aimé la solution ! C'est vraiment ce que les hôtels en ont besoin cette période, surtout après la propagation du Covid-19.</p>
-							</div>
-						</div>
-						<!-- /client info -->
-					</div>
-					<!-- /testimonial single -->
-				
-					<!-- testimonial single -->
-					<div class="item text-center">
-						
-						<!-- client photo -->
-						<div class="client-thumb">
-							<img src="images/team/client-1.jpg" class="img-responsive" alt="Meghna">
-						</div>
-						<!-- /client photo -->
-						
-						<!-- client info -->
-						<div class="client-info">
-							<div class="client-meta">
-								<h3>Islem Hadj Ali</h3>
-								<span>Sep 20, 2020</span>
-							</div>
-							<div class="client-comment">
-								<p>C'est certainement la solution la plus adaptée pour les hôtels aujourd'hui !</p>
-							</div>
-						</div>
-						<!-- /client info -->
-					</div>
-					<!-- /testimonial single -->
-					
 				</div>		<!-- end testimonial wrapper -->
 			</div> 		<!-- end col lg 12 -->
 		</div>	    <!-- End row -->
@@ -829,7 +677,7 @@ Start Our Team
 			
 			<!-- Contact Details -->
 			<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
-				<h3 style="padding-bottom: 4vh">Contact</h3>
+				<h3 style="padding-bottom: 2vh">Contact</h3>
 				<div class="contact-details">
 					<div class="con-info clearfix">
 						<i class="tf-map-pin"></i>
@@ -849,6 +697,26 @@ Start Our Team
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-email-outline"></i>
 						<span>Email: lenus.team@gmail.com</span>
+					</div>
+				</div>
+				<h3 style="padding-bottom: 2vh">Cadre</h3>
+				<div class="contact-details">
+					<div class="con-info clearfix">
+						<p>Lenus est une solution créée dans le cadre de Orange Summer Challenge. Le projet était soutenu par Orange, GIZ, Google et Four Seasons Hotels.</p>
+						<div class="row">
+							<div class="col-md-3 container">
+
+							</div>
+							<div class="col-md-3 container">
+
+							</div>
+							<div class="col-md-3 container">
+
+							</div>
+							<div class="col-md-3 container">
+
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
